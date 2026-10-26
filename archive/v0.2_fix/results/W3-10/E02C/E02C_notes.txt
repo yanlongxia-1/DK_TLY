@@ -1,0 +1,4 @@
+Only train interval used. Changing thresholds based on validation data is forbidden.
+CS and SampEn thresholds are ENGINEERING operationalization; paper has no unique universal threshold.
+Training SNR is a single-tone PROXY, not proof of true noise removal.
+Any thresholds changed after looking at the old validation outcomes need testing on a NEW independent holdout.

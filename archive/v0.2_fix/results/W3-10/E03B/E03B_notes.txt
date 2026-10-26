@@ -1,0 +1,6 @@
+Synthetic reference is exact clean sensor output and signed OmegaX/OmegaY.
+Known phi, bias, and sensitivities are used ONLY for simulation evaluation.
+Both filters use the SAME frozen E02 K/alpha and SAME MVMD modes.
+This isolates IMF selection; it DOES NOT evaluate physical FVIM parameter optimization.
+No parameters may be tuned from E03B and then assessed on the same synthetic realization.
+K=8 alpha=154.15796 sigma=0.012 rngseed=20261326

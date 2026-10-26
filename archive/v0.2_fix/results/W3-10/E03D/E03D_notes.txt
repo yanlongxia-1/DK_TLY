@@ -1,0 +1,13 @@
+E03D: phase/bias/gain uncertainty sensitivity; 4 scenarios x 2 held-out seeds.
+Fixed trained E02 K=8 alpha=154.1579598620, tau=0, maximum 1100 iterations.
+No FVIM, no tuning, no use of E03C simulation truth.
+Oracle knows true phase, sensitivities, and biases ONLY for error attribution.
+Nominal assumes 3 Hz and zero initial phase and nominal calibration.
+Scenario roll drift is 3 to 3.10 Hz over 2.047 seconds.
+One or more nonconverged cases must remain in convergence statistics.
+RMSE units are deg/s, synthetic truth only, ROI samples 101:1948.
+Interpretation: E02_oracle vs raw_oracle measures denoising potential.
+E02_nominal_phi vs E02_oracle isolates roll phase error.
+E02_nominal_all vs E02_nominal_phi adds calibration mismatch.
+E03_nominal_all equals E02_nominal_all if guard never activates.
+Code static-reviewed, not MATLAB-runtime tested.

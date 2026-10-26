@@ -1,0 +1,2 @@
+K_opt,alpha_opt,search_seconds_PC,filter_seconds_PC,fitness_calls,mvmd_iterations,mvmd_converged,mvmd_final_delta,mvmd_center_change_Hz,MVMD_AC_reconstruction_relative,MVMD_spectral_reconstruction_relative,FVIM_K_on_search_boundary,n_discarded,n_mixed,n_kept
+8,154.157959862019,54.8882785,0.7731351,156,490,1,9.64245778023801e-06,0.00261538051377075,0.0208055815591067,0.0208055815591066,0,5,2,1

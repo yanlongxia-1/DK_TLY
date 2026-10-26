@@ -1,0 +1,7 @@
+Independent Python reference experiment (NOT MATLAB runtime verification):
+- 2220 samples, fs=1000Hz, two noisy 3Hz near-quadrature synthetic channels, K=8 alpha=786.4309.
+- Original dual update tau=0.025 repeatedly changes spectral modes at ~1e-3 to 1e-2 scales even after long iteration budgets.
+- Noise-tolerant tau=0 converged in the independent Python implementation in ~150 iterations at relative delta~1e-5.
+- Other independent tau=0 tests: K2 alpha50 ~55 iter; K3 alpha1000 ~299; K4 alpha1000 ~544; K10 alpha5000 ~405; K10 alpha10 may need >1000.
+- These are engineering diagnostic illustrations, NOT proof of performance on the user's real signal or of execution correctness in MATLAB.
+- With tau=0, total modes intentionally may not reconstruct all measured AC. Do NOT demand zero reconstruction residual; check loss of true dynamic components using independent truth/simulation.
