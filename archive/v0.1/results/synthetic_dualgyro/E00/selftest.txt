@@ -1,0 +1,3 @@
+Analytic inverse check maximum absolute error = 1.0658141036402e-14 deg/s
+Truth phi includes small phase modulation; fixed f*t is deliberately imperfect.
+MVMD smoke test: iterations=45; converged=0; reconstruction residual=0.0608747
