@@ -1,0 +1,3 @@
+caseName,alpha,converged,iterations,acReconLoss,elapsedSeconds
+Z3-1,80,0,1200,0.0209256736570448,2.3965184
+Z3-1,300,1,576,0.0662925551513903,1.1828933

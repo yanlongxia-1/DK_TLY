@@ -1,0 +1,5 @@
+STOP: joint FVIM-style objective did not meet preset train conditions. Do NOT inspect Z3-2 to retune. Record failure and move on.
+Old best (engineering entropy-only): K=8 alpha=154.15796 fitness=0.980212066
+New best (dual-channel physics objective): K=8 alpha=154.15796 fitness=0.164757377
+Unique train MVMD solves: 12, max: 12. Locked Z3-2 is NOT unseen blind test.
+No ground-truth signal SNR, body Ωx/Ωy RMSE, or attitude RMSE demonstrated.
