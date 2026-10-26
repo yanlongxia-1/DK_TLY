@@ -1,0 +1,33 @@
+# MATLAB / 编辑器临时文件
+*.asv
+*.autosave
+*.m~
+*.swp
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# MATLAB/Simulink 生成缓存与代码生成目录
+slprj/
+codegen/
+*.mexw64
+*.mexw32
+
+# 本机配置、凭据和未审查的原始真实数据
+local_config.m
+local_config_*.m
+.env
+.env.*
+secrets/
+data/raw/
+real_data/
+external_data/
+
+# 临时导出与未纳入版本控制计划的批量结果
+scratch/
+tmp/
+temp/
+exports/
+
