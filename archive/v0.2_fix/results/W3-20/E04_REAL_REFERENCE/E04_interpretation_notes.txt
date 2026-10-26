@@ -1,0 +1,10 @@
+E04 real reference audit, no filtering / no parameter fitting.
+Source: E:\dak_data\Desktop\实验\jyk_Test\实验室课题组数据实验\20200824_data\20200824陀螺试验\20200824-1-2\W3-20.txt
+N=10347 fs_assumed=1000.000000 Hz f0_assumed=3.000000 Hz
+Gimbal rate columns 1-3 may NOT directly equal body roll-rate.
+Col6 is ONE measured acceleration channel; correlation at 3Hz is NOT proof of absolute roll phase.
+No roll phase estimate, signed Omega truth or Euler-angle truth is constructed here.
+Physical rotation-axis definitions, units, zero alignment and sign conventions are needed before reconstructing the reference attitude.
+Observed 3 Hz fit R2: gyro a 0.9680, gyro s 0.9766, accel col6 0.9407; accel 6 Hz fit R2 0.0002.
+Gimbal rate-screen candidates (not proven axes): zeros(1,0)
+Do NOT choose any method parameter using an already-viewed validation interval.

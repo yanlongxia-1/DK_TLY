@@ -1,0 +1,9 @@
+REAL W-class data. Frozen calibration trained with E + W10/30/90.
+W20/W60 held out from CALIBRATION regression, NOT automatically independent of earlier FILTER exploration.
+theta encoder phase: diagnostic upper-bound offline input; theta fixed: initialized from encoder start angle, constant roll frequency.
+Omega_outer is an EQUIVALENT signed gimbal-axis input under the calibrated W model.
+IT IS NOT general body Omega_x/Omega_y, and NOT true attitude RMSE.
+Never use outer reference label to correct per-file biases or gains.
+H=C+i*S is a COS/SIN coefficient pair: response(theta)=C*cos(theta)+S*sin(theta).
+The calibration E-file nonzero harmonic H_E is subtracted before signed input inference.
+MVMD is offline full-block; comparison is NOT proof of causal embedded readiness.

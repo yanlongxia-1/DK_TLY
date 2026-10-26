@@ -1,0 +1,2 @@
+case_name,roll_Hz,total_samples,evaluation_samples,MVMD_converged,MVMD_iterations,MVMD_delta,AC_recon_relative,KF_seconds,MVMD_seconds
+W3-20,3,10347,3623,1,415,9.72282350876945e-06,0.0122805817834983,0.0451088,0.8642592
