@@ -1,0 +1,2 @@
+caseName,samples,rollHz,motionHz,nominalOuterAngleAmplitudeDeg,measuredOuterAngleAmplitudeDeg,MVMD_converged,iterations,finalDelta,AC_reconstructionLoss,elapsed_s
+Z3-2,4000,3,2,3,2.98724653360641,1,283,9.40875383550883e-06,0.0106843378276827,0.6163613

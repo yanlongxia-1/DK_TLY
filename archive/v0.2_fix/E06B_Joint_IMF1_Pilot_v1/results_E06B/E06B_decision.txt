@@ -1,0 +1,4 @@
+Decision (pre-frozen): sidebands_pass=0; extra_noise_proxy_pass=0
+Strong candidate for deeper validation only if both are true.
+These measurements are NOT true clean-signal SNR nor attitude RMSE.
+DO NOT RETUNE ON Z3-2. If fail, stop this branch.

@@ -1,0 +1,9 @@
+REAL Z-class data: Z3-1.TXT | roll=3Hz, motion=1Hz, outer encoder motion amplitude=0.989589deg
+Frozen K=8 alpha=154.157959862 tau=0; one JOINT MVMD decomposition; no FVIM optimizer.
+Expected candidate sidebands: 2 and 4Hz. Verify these with measured data; they are not guaranteed physical truth.
+Raw-vs-filter harmonic retention uses simultaneous least-squares fitting of 3 frequencies. Raw is noisy reference, NOT noiseless truth.
+Coefficient phase convention: H=C+i*S in y=b+C*cos(2*pi*f*t)+S*sin(2*pi*f*t).
+Sideband resolvable flag is a heuristic single-tone fit proxy; autocorrelation may invalidate its nominal strength.
+The outer angle is only a PHYSICAL EXCITATION CHECK; it was not used for filtering, IMF selection or parameter fitting.
+Z-class dynamics are NOT already validated by static W-class calibration: no signed body-rate or attitude RMSE here.
+The same pre-frozen algorithm settings are used for Z3-1 and Z3-2. Do not tune on Z3-2 while calling it independent.
