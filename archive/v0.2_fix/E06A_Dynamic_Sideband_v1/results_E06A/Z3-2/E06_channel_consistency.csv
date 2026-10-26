@@ -1,0 +1,4 @@
+caseName,component,frequencyHz,raw_S_minus_A_phaseDeg,filtered_S_minus_A_phaseDeg,relativePhaseChangeDeg
+Z3-2,roll_carrier,3,50.2805557473581,47.7222442635964,-2.55831148376174
+Z3-2,lower_sideband,1,90.6328217500185,90.6295096122614,-0.00331213775706374
+Z3-2,upper_sideband,5,88.9923184385354,88.988784088671,-0.0035343498644238
