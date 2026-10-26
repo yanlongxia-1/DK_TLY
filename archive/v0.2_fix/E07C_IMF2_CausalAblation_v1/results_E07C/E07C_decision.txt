@@ -1,0 +1,11 @@
+E07-C fixed-decomposition IMF2 cross-reconstruction (Z3-1 TRAIN ONLY)
+Two MVMD solves; no FVIM search; no Z3-2 data accessed.
+IMF2 hard classification is different: alpha293=mixed; alpha306=dropped.
+Same-decomposition IMF2 drop-over-mixed change in dB:
+  alpha 292.9731: channel a 3.183770 dB, channel s 2.915635 dB; sidebandPass=1
+  alpha 306.1287: channel a 3.185133 dB, channel s 2.918501 dB; sidebandPass=1
+Classification effect passes diagnostic criterion: 1
+Alpha-only difference with a fixed class <=0.5dB in both channels: 1
+INTERPRETATION: strong evidence the discontinuous IMF2 decision explains most noise-proxy gap.
+NEXT: develop a continuous paired-mode weighting rule ON TRAIN DATA; evaluate on NEW separate records.
+Not a true clean-signal SNR, body Omega_x/Omega_y or attitude RMSE.

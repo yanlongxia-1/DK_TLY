@@ -1,0 +1,2 @@
+STOP: no fixed-alpha candidate passed train. Do not test/tune Z3-2. Parameter-only change not supported.
+MVMD baseline remains as-is. Proceed to a substantively different, explicitly specified FVIM objective or reconstruction model.
