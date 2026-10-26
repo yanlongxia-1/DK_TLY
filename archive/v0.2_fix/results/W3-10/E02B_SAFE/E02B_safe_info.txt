@@ -1,0 +1,9 @@
+E02B_SAFE numerical diagnostic, NOT full FVIM or paper validation
+Input: E:\dak_data\Desktop\实验\jyk_Test\实验室课题组数据实验\20200824_data\20200824陀螺试验\20200824-1-2\W3-10.txt
+Training indices used: 634 .. 2433 (1800 samples)
+fs=1000, tau=0, tol=1e-05, maxIterations=250
+K=[2  4  6], alpha=[200       786.4309           2000]
+Soft wall-time limit: 360s; MATLAB memory threshold: 4.00 GB; free disk threshold: 8.00 GB
+End status: finished
+Number of completed cases: 9 of 9
+Elapsed total: 3.65 seconds

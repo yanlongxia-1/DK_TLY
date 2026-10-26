@@ -1,0 +1,11 @@
+E03E: analytic inverse max absolute error = 1.066e-14 deg/s
+Pure source-isolation experiments: CLEAN sensor signals, NO simulated ADC noise, NO MVMD or FVIM.
+Scenario: unknown initial phase = +5 deg, roll frequency ramps 3.00 -> 3.10 Hz over 2.047 seconds.
+External roll-rate observation: bias +0.005 Hz, Gaussian noise std 0.02 Hz (SIMULATED).
+Absolute phase observation: every 0.25s, noise std 2deg, fusion gain 0.7 (SIMULATED).
+Known-initial-phase method is an ORACLE calibration reference, not a directly available method.
+Bias-only and gain-only are isolated in the noiseless second experiment.
+Magnitude invariance to phase rotation is expected; check signed rates and vector RMSE.
+Independent phase reference is hypothetical; col6 accelerometer or turntable column3 NOT validated.
+This is a requirements study, NOT evidence that real IMU/accelerometer yields phase reference.
+Generated in: E:\dak_data\Desktop\实验\jyk_Test\DualGyro_FVIM_MVMD_Lab_v0.2_fix\E03E_results

@@ -1,0 +1,9 @@
+E03C: Fixed real-data-trained K, alpha, classifier thresholds; no FVIM.
+Synthetic diagnostics only: known phi, Ka, Ks, biases, and true signed rates.
+Modulation frequencies [1,3,8,15]Hz, seeds [20261111,20261112].
+Measured RMSE is computed on indices 101:1948 to reduce boundary effects.
+TRUE sideband projection uses unavailable-in-practice clean simulated signal. DO NOT optimize from it.
+This test is EXPLORATORY; create fresh randomized holdout before final claims.
+Mode classes: 0=discard, 1=wavelet-denoise, 2=keep.
+One-to-one comparison E02/E03 is meaningful ONLY if the physics guard actually changes output.
+Do not interpret numeric solver convergence as accuracy or real-time readiness.
