@@ -1,0 +1,6 @@
+E09-A0：本结果为真实外框编码器角度与积分外框等效角度比较。
+不是机体系俯仰/偏航角精度，不用于选择K/alpha/校准值。
+数据源TXT: E:\dak_data\Desktop\实验\jyk_Test\实验室课题组数据实验\20200824_data\20200824陀螺试验\20200824-1-2\W9-60.TXT
+角速度CSV: E:\dak_data\Desktop\实验\jyk_Test\DualGyro_FVIM_MVMD_Lab_v0.2_fix\E09A0_EncoderAngle_Audit_v1\..\E08K_AutoFVIM_Physics_Rate_v1\results_E08K_9Hz\E08K_series_W9_60_TXT.csv
+参考角度已unwrap; 首样本初始角共同对齐; 禁止事后去漂移或按参考角度反向校准。
+下一阶段需转台外/中/内转轴定义、零位/安装矩阵、解调两自由度标定后，才能验证pitch/yaw。
