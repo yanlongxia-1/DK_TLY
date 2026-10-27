@@ -1,0 +1,15 @@
+E08-K: W9-60与Z9-3历史已用于开发，不是新盲测。
+新物理保真通过不等于真值SNR或姿态RMSE提升。
+W9-60.TXT raw valid=1 fidelity=1 rmseDegS=3.2478754
+W9-60.TXT fixed_baseline valid=0 fidelity=0 rmseDegS=NaN
+W9-60.TXT developer_K5 valid=1 fidelity=1 rmseDegS=3.1804735
+W9-60.TXT entropy_auto valid=0 fidelity=0 rmseDegS=NaN
+W9-60.TXT physics_auto valid=1 fidelity=1 rmseDegS=3.1804735
+Z9-3.TXT raw valid=1 fidelity=1 rmseDegS=NaN
+Z9-3.TXT fixed_baseline valid=1 fidelity=1 rmseDegS=NaN
+Z9-3.TXT developer_K5 valid=1 fidelity=1 rmseDegS=NaN
+Z9-3.TXT entropy_auto valid=1 fidelity=1 rmseDegS=NaN
+Z9-3.TXT physics_auto valid=1 fidelity=1 rmseDegS=NaN
+Compared to RAW, raw deltaRMSEpct=0.0000
+Compared to RAW, developer_K5 deltaRMSEpct=2.0753
+Compared to RAW, physics_auto deltaRMSEpct=2.0753
