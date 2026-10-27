@@ -1,0 +1,4 @@
+rollHz,K,alpha,trainFeasible,reason
+6,7,250,1,selected_on_W10_Z1_train_only
+12,6,185.0015,1,selected_on_W10_Z1_train_only
+21,8,320,1,selected_on_W10_Z1_train_only
