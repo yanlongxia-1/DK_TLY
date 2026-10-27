@@ -1,0 +1,2 @@
+fileName,fixedValid,entropyValid,physicsValid,physicsFidelityPass,pairedWithFixed,RMSE_improvementVsFixed_pct,pairedWithEntropy,RMSE_improvementVsEntropy_pct
+W9-60.TXT,0,0,0,0,0,NaN,0,NaN

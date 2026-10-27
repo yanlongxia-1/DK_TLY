@@ -1,0 +1,13 @@
+fileName,method,centerRelaxation,message
+W9-60.TXT,fixed_baseline,1,在不同结构体之间进行下标赋值。
+W9-60.TXT,fixed_baseline,0.5,在不同结构体之间进行下标赋值。
+W9-60.TXT,entropy_auto,1,在不同结构体之间进行下标赋值。
+W9-60.TXT,entropy_auto,0.5,在不同结构体之间进行下标赋值。
+W9-60.TXT,physics_auto,1,在不同结构体之间进行下标赋值。
+W9-60.TXT,physics_auto,0.5,在不同结构体之间进行下标赋值。
+Z9-3.TXT,fixed_baseline,1,在不同结构体之间进行下标赋值。
+Z9-3.TXT,fixed_baseline,0.5,在不同结构体之间进行下标赋值。
+Z9-3.TXT,entropy_auto,1,在不同结构体之间进行下标赋值。
+Z9-3.TXT,entropy_auto,0.5,在不同结构体之间进行下标赋值。
+Z9-3.TXT,physics_auto,1,在不同结构体之间进行下标赋值。
+Z9-3.TXT,physics_auto,0.5,在不同结构体之间进行下标赋值。

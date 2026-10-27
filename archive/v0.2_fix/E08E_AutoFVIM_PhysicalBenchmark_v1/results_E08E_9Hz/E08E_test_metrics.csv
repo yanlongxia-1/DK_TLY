@@ -1,0 +1,5 @@
+fileName,validationRole,rollHz,method,K,alpha,solverValid,fidelityPass,noiseProxyA_dB,noiseProxyS_dB,minRetentionPct,maxRetentionPct,maxPhaseDeg,encoderReferenceDegS,meanRateDegS,MAE_deg_s,RMSE_deg_s,meanErrorDegS,stdErrorDegS,evaluationSamples
+W9-60.TXT,locked_external_check,9,raw,0,NaN,1,1,0,0,100,100,0,59.9915676040309,59.8793153736043,2.89450746774366,3.24621036396863,-0.112252230426486,3.24485074731543,2789
+W9-60.TXT,locked_external_check,9,fixed_baseline,8,154.157959862,0,0,NaN,NaN,NaN,NaN,NaN,59.9915676040309,NaN,NaN,NaN,NaN,NaN,2789
+W9-60.TXT,locked_external_check,9,entropy_auto,7,450,0,0,NaN,NaN,NaN,NaN,NaN,59.9915676040309,NaN,NaN,NaN,NaN,NaN,2789
+W9-60.TXT,locked_external_check,9,physics_auto,8,320,0,0,NaN,NaN,NaN,NaN,NaN,59.9915676040309,NaN,NaN,NaN,NaN,NaN,2789

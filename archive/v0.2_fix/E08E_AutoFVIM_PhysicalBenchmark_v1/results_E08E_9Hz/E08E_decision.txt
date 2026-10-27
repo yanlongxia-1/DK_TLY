@@ -1,0 +1,17 @@
+E08-E：FVIM风格自动双参数搜索（非原论文作者精确源码）。
+算法只读取训练双通道和已知频率；测试文件/编码器角速度不参与FVIM评分。
+初始4候选共享，旧熵目标/新联合目标各额外4候选；最多12组候选/频率。
+对照：固定K=8 alpha=154.157959862，旧目标FVIM自主选参，新目标FVIM自主选参，原始信号。
+相同硬重构，比较时必须分别统计成功率及只对同文件有效方法的成对RMSE。
+W类外框RMSE使用同频率固定校准表与E类谐波基线；Z类当前仅有滤波代理指标。
+噪声是非目标残差单频/边带拟合代理，并非有干净真值的SNR。
+W9-20等曾用于开发，不可称盲测；W9-60/Z9-3的历史使用情况亦须审计。
+9Hz fixed_baseline K=8 alpha=154.16 trainingFeasible=1
+9Hz entropy_auto K=7 alpha=450 trainingFeasible=1
+9Hz physics_auto K=8 alpha=320 trainingFeasible=1
+TEST W9-60.TXT raw solverValid=1 fidelityPass=1 RMSEdegS=3.24621 proxyA=0.0000 proxyS=0.0000
+TEST W9-60.TXT fixed_baseline solverValid=0 fidelityPass=0 RMSEdegS=NaN proxyA=NaN proxyS=NaN
+TEST W9-60.TXT entropy_auto solverValid=0 fidelityPass=0 RMSEdegS=NaN proxyA=NaN proxyS=NaN
+TEST W9-60.TXT physics_auto solverValid=0 fidelityPass=0 RMSEdegS=NaN proxyA=NaN proxyS=NaN
+MISSING/FAILED Z9-3.TXT: 数据段不足2.0秒：Z9-3.TXT
+不能从有限训练/测试证明全局最优或在线实时性；此处是分段离线自动寻优。

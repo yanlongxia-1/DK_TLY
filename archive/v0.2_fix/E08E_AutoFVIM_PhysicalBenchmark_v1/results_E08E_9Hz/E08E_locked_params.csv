@@ -1,0 +1,4 @@
+rollHz,method,K,alpha,trainingFeasible
+9,fixed_baseline,8,154.157959862,1
+9,entropy_auto,7,450,1
+9,physics_auto,8,320,1
